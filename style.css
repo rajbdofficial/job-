@@ -1,0 +1,29 @@
+.profile-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* White background for profile */
+    border-radius: 50px; /* Rounded corners for the section */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 40px auto; /* Center the section horizontally */
+    max-width: 800px; /* Limit the width for better appearance */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    background-color: #e9ecef; /* Light gray background */
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden;
+    margin-right: 30px; /* Space between image and text */
+    border: 8px solid #007bff; /* Thicker blue border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: auto;
+}
